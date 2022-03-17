@@ -1,13 +1,13 @@
 ## <font color="#FF4500" >gotiny 只是个玩具，不建议使用。</font>
 
 
-# gotiny   [![Build status][travis-img]][travis-url] [![License][license-img]][license-url] [![GoDoc][doc-img]][doc-url] [![Go Report Card](https://goreportcard.com/badge/github.com/niubaoshu/gotiny)](https://goreportcard.com/report/github.com/niubaoshu/gotiny)
+# gotiny   [![Build status][travis-img]][travis-url] [![License][license-img]][license-url] [![GoDoc][doc-img]][doc-url] [![Go Report Card](https://goreportcard.com/badge/github.com/Marreck/gotiny)](https://goreportcard.com/report/github.com/Marreck/gotiny)
 gotiny是一个注重效率的go语言序列化库。gotiny通过预先生成编码机和减少使用reflect库等方式来提高效率，几乎和生成代码的序列化库有同样高的速度。
 ## hello word 
     package main
     import (
    	    "fmt"
-   	    "github.com/niubaoshu/gotiny"
+   	    "github.com/Marreck/gotiny"
     )
     
     func main() {
@@ -34,7 +34,7 @@ gotiny是一个注重效率的go语言序列化库。gotiny通过预先生成编
 
 ## install
 ```bash
-$ go get -u github.com/niubaoshu/gotiny
+$ go get -u github.com/Marreck/gotiny
 ```
 
 ## 编码协议
@@ -77,4 +77,4 @@ MIT
 [license-img]: http://img.shields.io/badge/license-MIT-green.svg?style=flat-square
 [license-url]: http://opensource.org/licenses/MIT
 [doc-img]: http://img.shields.io/badge/GoDoc-reference-blue.svg?style=flat-square
-[doc-url]: https://godoc.org/github.com/niubaoshu/gotiny
+[doc-url]: https://godoc.org/github.com/Marreck/gotiny

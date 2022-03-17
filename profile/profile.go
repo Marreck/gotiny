@@ -9,8 +9,8 @@ import (
 	"runtime/pprof"
 	"time"
 
-	"github.com/niubaoshu/gotiny"
-	"github.com/niubaoshu/goutils"
+	"github.com/Marreck/gotiny"
+	"github.com/Marreck/gotiny/goutils"
 )
 
 type str struct {
